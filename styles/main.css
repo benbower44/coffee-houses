@@ -1,0 +1,12 @@
+.list {
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+.shop {
+    display: flex;  /* Display the child items in a Flex layout */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
